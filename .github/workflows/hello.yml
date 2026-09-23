@@ -20,7 +20,7 @@ jobs:
       - name: Run Python
         run: python --version
 
-      - name: Run Python
-        run: python main.py
+      - name: Run Pytest basic_get function
+        run: pytest
 
     
