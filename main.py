@@ -16,6 +16,9 @@ todos = [
     },
 ]
 
+@app.get("/")
+def basic_get():
+    return {"message": "Hello"}
 
 @app.get("/todos")
 def get_todos():
